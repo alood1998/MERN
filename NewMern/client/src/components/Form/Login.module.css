@@ -1,0 +1,57 @@
+.root {
+  width: 400px;
+  padding: 50px;
+  border: 1px solid #dedede;
+  margin: 50px auto;
+}
+
+.field {
+  margin-bottom: 20px !important;
+}
+
+.title {
+  text-align: center !important;
+  font-weight: bold !important;
+  margin-bottom: 30px !important;
+}
+
+.text {
+  color: #bf1650;
+}
+.text:before {
+  display: inline;
+  content: "⚠ ";
+}
+
+.eye {
+  cursor: pointer;
+  margin-bottom: 16px;
+}
+.register {
+  text-align: center;
+  font-size: 14px;
+  background: none;
+  border: none;
+  color: #3e77aa;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+.register:hover {
+  color: #bf1650;
+}
+.passwordRemind {
+  text-align: center;
+  font-size: 10px;
+  background: none;
+  border: none;
+  color: #3e77aa;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+.passwordRemind:hover {
+  color: #bf1650;
+}
